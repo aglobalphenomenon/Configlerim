@@ -1,0 +1,23 @@
+# Aliases
+alias c='clear'
+alias cls='clear'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+
+alias l='eza -lh --icons=auto'
+alias ls='eza -l --icons=auto'
+#alias ls='ls -lah --color=auto'
+alias ll='eza -lha --icons=auto --sort=name --group-directories-first'
+alias l='eza -lhD --icons=auto'
+alias tree='eza -lh --icons=auto --tree'
+
+alias grep='grep --color=auto'
+
+alias clip='xclip -selection c'
+alias vclip='xclip -selection clipboard -o'
+
+alias nv='nvim'
+
+alias rezsh='source ~/.config/zsh/.zshrc'
+

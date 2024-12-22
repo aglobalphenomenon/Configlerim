@@ -1,0 +1,12 @@
+{
+    "prompt_count_cache": {
+        "value": "6",
+        "timestamp": 1733261332,
+        "ttl": 86400
+    },
+    "template_cache": {
+        "value": "{\"SegmentsCache\":{\"Path\":{\"Text\":\"  \\u003cLINK\\u003efile:/home/mj/.cache/oh-my-posh/themes\\u003cTEXT\\u003ethemes\\u003c/TEXT\\u003e\\u003c/LINK\\u003e \",\"Location\":\"/home/mj/.cache/oh-my-posh/themes\",\"Path\":\"themes\",\"Folders\":[{\"Name\":\".cache\",\"Path\":\"~/.cache\",\"Display\":false},{\"Name\":\"oh-my-posh\",\"Path\":\"~/.cache/oh-my-posh\",\"Display\":false},{\"Name\":\"themes\",\"Path\":\"~/.cache/oh-my-posh/themes\",\"Display\":false}],\"StackCount\":0,\"Writable\":true,\"RootDir\":false},\"Session\":{\"Text\":\" mj \",\"DefaultUserName\":\"\",\"SSHSession\":false},\"Shell\":{\"Text\":\"in \\u003cp:blue\\u003e\\u003cb\\u003ezsh\\u003c/b\\u003e\\u003c/\\u003e \",\"Name\":\"zsh\",\"Version\":\"5.9\"},\"Status\":{\"Text\":\" CONFIG ERROR \",\"String\":\"0\",\"Meaning\":\"0\",\"Code\":0,\"Error\":false},\"Time\":{\"Text\":\"at \\u003cp:blue\\u003e\\u003cb\\u003e00:28:19\\u003c/b\\u003e\\u003c/\\u003e\",\"CurrentDate\":\"2024-12-04T00:28:19.71587538+03:00\",\"Format\":\"15:04:05\"}},\"Segments\":{},\"Var\":{},\"ShellVersion\":\"5.9\",\"AbsolutePWD\":\"/home/mj/.cache/oh-my-posh/themes\",\"PSWD\":\"\",\"UserName\":\"mj\",\"HostName\":\"Archer\",\"PWD\":\"~/.cache/oh-my-posh/themes\",\"Shell\":\"zsh\",\"Folder\":\"themes\",\"OS\":\"endeavouros\",\"Code\":0,\"PromptCount\":4,\"SHLVL\":1,\"Jobs\":0,\"WSL\":false,\"Root\":false}",
+        "timestamp": 1733261299,
+        "ttl": 86400
+    }
+}

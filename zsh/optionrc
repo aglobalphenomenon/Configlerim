@@ -1,0 +1,13 @@
+setopt correct                     # Auto correct mistakes
+setopt correct_all                 # Auto correct mistakes
+
+setopt hist_find_no_dups 
+setopt hist_ignore_all_dups
+setopt hist_ignore_space
+setopt share_history
+setopt appendhistory               # Immediately append history instead overwriting it
+#setopt historyignoredups           # Replace a new duplicate command with an old one
+setopt inc_append_history          # Save commands are added to the history immediately, otherwise only when shell exits.
+setopt histignorespace             # Don't save commands that start with space (use to avoid saving in history).
+
+setopt autocd                      # CD without typing `cd`
