@@ -1,0 +1,11 @@
+# Checks if the variable `$XDG_CONFIG_HOME` is assigned, if not "aka `-z`" then it assigns the value of `$HOME/.config/` to it
+if [[ -z "$XDG_CONFIG_HOME" ]]
+then
+	export XDG_CONFIG_HOME="$HOME/.config/"
+fi
+
+# If the aforementioned variable exits then it sets the default directory where it looks for `.zshrc` "aka the `$ZDOTDIR`" to be $XDG_CONFIG_HOME/zsh.   
+if [[ -d "$XDG_CONFIG_HOME" ]]
+then	
+	export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+fi
